@@ -35,4 +35,4 @@ jobs:
     - name: Isntall surge
       run: npm install --global surge
     - name: Deploy surge
-      run: surge ./build MahmoodReactAssignment.surge.sh --token ${{secrets.PIAIC_SURGE_TOKEN}} 
+      run: surge ./build MahmoodReactAssignment.surge.sh --token ${{secrets.PIAIC_SURGE_TOKEN}}
